@@ -11,6 +11,7 @@
 
 ### Étapes principales du projet  
 1. **Importation des données** :  
+
 2. **Feature engineering** :  
    Cette étape correspond à la transformation des colonnes  en une représentation exploitable par le modèle. Parmi ces colonnes, seules les colonnes correspondantes aux quantités d’octets entrants; les restes sont de type object d'où l'utilisation du target encoding pour leurs traitements, ce qui  consiste à convertir chaque valeur d’une colonne catégorique en sa valeur attendue, qui dans ce cas est la probabilité de cette valeur d’être une anomalie
        
@@ -24,33 +25,31 @@
    - Export du modèle et des différents parametres utilisés durant le pretraintement et l'entrainement  entraîné pour une réutilisation future  
 
 ### Étapes principales du projet
-#### 1. Importation des données
-   Chargement des données réseau nécessaires à l’analyse.
+1. **Importation des données** qui correspond au chargement des données réseau nécessaires à l’analyse.
+-  Telechargeable  à   ce  <a href="https://www.kaggle.com/datasets/tahianasoa/nfu-dataset">lien</a> si sur Kaggle ou <a href="https://rdm.uq.edu.au/files/e2412450-ef9c-11ed-827d-e762de186848">ici</a> . Ce sont des données  du jeu de données NF-UQ-NIDS-v2 au format Netflow.
+-   Les détails sur les colonnes du dataset sont alors: les adresses IP sources et de destination et leurs ports correspondants, les protocoles de la couche 4, les cumulatifs du TCP_FLAGS, les quantités d’octets entrants et sortants, le nombre de paquets entrants et sortants et les protocoles de la couche 7 
 
-#### 2. Feature engineering
+2. **Feature engineering**
  - Transformation des colonnes en une représentation exploitable par le modèle.
  - Les colonnes numériques (ex. : quantités d’octets entrants) sont utilisées telles quelles.
  - Les colonnes de type object sont encodées avec du target encoding, qui convertit chaque valeur catégorique en une valeur numérique correspondant à la probabilité que cette valeur soit associée à une anomalie.
    
-#### 3. Séparation des données: 
- Division en :  </br>
+3. **Séparation des données** correspondant à la division des données en : 
  - données d’entraînement
  - données de test
  - données d’anomalies
 Les données d’anomalies ne sont pas utilisées pendant l’entraînement, afin que le modèle apprenne uniquement les caractéristiques du comportement normal.
 
-#### 4. Entraînement du modèle**:
-   Utilisation d’un autoencodeur deep learning pour apprendre la représentation des données normales.
+4. **Entraînement du modèle**: Utilisation d’un autoencodeur deep learning pour apprendre la représentation des données normales.
 
-#### 5. Évaluation du modèle**:
-   Le modèle est évalué successivement sur les données d’entraînement, les données de test, les données d’anomalies
+5. **Évaluation du modèle**: Le modèle est évalué successivement sur les données d’entraînement, les données de test, les données d’anomalies
    
-#### 6.Sauvegarde du modèle**:
-   Export du modèle entraîné ainsi que des paramètres de prétraitement et d’entraînement pour une réutilisation future.
+6. **Sauvegarde du modèle**: Export du modèle entraîné ainsi que des paramètres de prétraitement et d’entraînement pour une réutilisation future.
 
 
 ## Test du modèle sauvegardé
 <p>Dans le notebook "Test-anomaly-detection-model", on retrouve la prédiction de quelques activités du réseau avec leurs  transformations en  utilisant  les différents paramètres.</p> 
+
 
 
 

@@ -7,11 +7,11 @@ Il s’appuie sur :
 - **MTCNN** pour la détection des visages  
 - **VGG16** (réseau pré-entraîné) pour la classification (masque / sans masque)  
 
-**Dataset**  
+### Dataset
 - Utilisé : [Face Mask Dataset](https://www.kaggle.com/datasets/omkargurav/face-mask-dataset)  
 - Contient des images de visages **avec masque** et **sans masque**.  
 
-**Étapes principales du projet**  
+### Étapes principales du projet  
 1. **Prétraitement des images** :  
    - Redimensionnement (224x224), normalisation et encodage en tenseurs  
    - Génération des labels correspondants (masque / sans masque)  

@@ -23,16 +23,16 @@
 6. **Sauvegarde du modèle** :  
    - Export du modèle et des différents parametres utilisés durant le pretraintement et l'entrainement  entraîné pour une réutilisation future  
 
-###Étapes principales du projet
+### Étapes principales du projet
 1. **Importation des données**
    Chargement des données réseau nécessaires à l’analyse.
 
-2.**Feature engineering**:
+2. **Feature engineering**:
  - Transformation des colonnes en une représentation exploitable par le modèle.
  - Les colonnes numériques (ex. : quantités d’octets entrants) sont utilisées telles quelles.
  - Les colonnes de type object sont encodées avec du target encoding, qui convertit chaque valeur catégorique en une valeur numérique correspondant à la probabilité que cette valeur soit associée à une anomalie.
    
-3.**Séparation des données**: 
+3. **Séparation des données**: 
     Division en :
     - données d’entraînement
     - données de test
@@ -51,6 +51,7 @@
 
 ## Test du modèle sauvegardé
 <p>Dans le notebook "Test-anomaly-detection-model", on retrouve la prédiction de quelques activités du réseau avec leurs  transformations en  utilisant  les différents paramètres.</p> 
+
 
 
 

@@ -32,7 +32,7 @@
  - Les colonnes numériques (ex. : quantités d’octets entrants) sont utilisées telles quelles.
  - Les colonnes de type object sont encodées avec du target encoding, qui convertit chaque valeur catégorique en une valeur numérique correspondant à la probabilité que cette valeur soit associée à une anomalie.
    
-3. **Séparation des données**: 
+3. **Séparation des données**: \n
     Division en :
     - données d’entraînement
     - données de test
@@ -42,7 +42,7 @@
 4. **Entraînement du modèle**:
    Utilisation d’un autoencodeur deep learning pour apprendre la représentation des données normales.
 
-5.**Évaluation du modèle**:
+5. **Évaluation du modèle**:
    Le modèle est évalué successivement sur les données d’entraînement, les données de test, les données d’anomalies
 
 6. **Sauvegarde du modèle**:
@@ -51,6 +51,7 @@
 
 ## Test du modèle sauvegardé
 <p>Dans le notebook "Test-anomaly-detection-model", on retrouve la prédiction de quelques activités du réseau avec leurs  transformations en  utilisant  les différents paramètres.</p> 
+
 
 
 

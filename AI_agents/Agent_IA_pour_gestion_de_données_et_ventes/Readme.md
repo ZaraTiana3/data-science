@@ -17,7 +17,6 @@ Il combine **LangChain**, **Streamlit** et des outils **MCP** afin de :
 - **Docker** :
   - `ankane/pgvector` pour le  stockage vectoriel pour la mémorisation  
   - `postgresmcp` pour la gestion automatisée de la base de données  
-- **Python** (project_tools.py) pour  outils de calcul et mémoire
 
 ---
 

@@ -1,7 +1,12 @@
 ## Implementation-de-modele-de-detection-d-anomalies-reseau
 
 ## Description 
-<p>Ceci concerne l'implementation de modele de detection d'anomalies reseau par utilisation du modele de deep learning autoencodeur.
+Ce projet porte sur la détection d’anomalies réseau à l’aide d’un modèle de deep learning basé sur un autoencodeur.
+L’objectif est d’identifier des comportements atypiques dans le trafic réseau qui peuvent correspondre à des intrusions, des attaques ou des activités inhabituelles.
+L’approche repose sur l’idée que :
+   - l’autoencodeur est entraîné uniquement sur des données normales afin d’apprendre à reconstruire fidèlement leurs caractéristiques.
+   - lorsque des données anormales (par ex. un trafic suspect) sont présentées au modèle, celui-ci échoue à les reconstruire correctement, ce qui se traduit par une erreur de reconstruction élevée.
+   - cette erreur devient alors un indicateur d’anomalie, permettant de différencier le trafic légitime du trafic potentiellement malveillant.
 
 ### Étapes principales du projet
 Le notebook "Implementation_de_modele_de_detection_d'anomalies_reseau.ipynb" contient les differentes transformations appliquées au dataset avant d'effectuer l'implementation du modele ainsi que l'évaluation du modèle.
@@ -29,6 +34,7 @@ Les données d’anomalies ne sont pas utilisées pendant l’entraînement, afi
 
 ## Test du modèle sauvegardé
 <p>Dans le notebook "Test-anomaly-detection-model.ipynb", on retrouve la prédiction de quelques activités du réseau avec leurs  transformations en  utilisant  les différents paramètres.</p> 
+
 
 
 

@@ -44,7 +44,7 @@ pip install -r requirements.txt
 python project_tools.py 
 streamlit run app.py
 
-##🔮 Améliorations prévues
+## 🔮 Améliorations prévues
 - Visualisations avancées (ventes par catégorie, marges mensuelles, etc.)
 - Ajout d’alertes automatiques (ex. seuils de stock critiques)
 

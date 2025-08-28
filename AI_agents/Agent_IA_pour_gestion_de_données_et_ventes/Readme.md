@@ -31,19 +31,23 @@ cd nom_du_repo'
 ```
 ### 2.Lancer les services Docker
 Démarre la base de données Postgres avec extension pgvector et postgresmcp :
+```bash
 docker compose up -d
+```
 
 ### 3. Installer les dépendances Python
 Crée un environnement virtuel puis installe les librairies :
-'''bash 
+```bash
 python -m venv venv
 source venv/bin/activate   # sous Linux/Mac
 venv\Scripts\activate      # sous Windows
 pip install -r requirements.txt
+```
 
 ### 4. Lancer l’application
-python project_tools.py 
+```bash
 streamlit run app.py
+```
 
 ## 🔮 Améliorations prévues
 - Visualisations avancées (ventes par catégorie, marges mensuelles, etc.)

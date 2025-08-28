@@ -31,7 +31,18 @@ Il s’appuie sur :
 En plus de l’entraînement et de l’évaluation du modèle, le projet inclut un script `detect_mask.py` permettant de tester la détection du port de masque en temps réel via la webcam de l’ordinateur.  
 
 ### Utilisation
-Après sauvegarde du  modèle entraîné (`mask_detector_model.h5`) ,   exécutez :  
+Après sauvegarde du  modèle entraîné (`mask_detector_model.h5`), suivre ces étapes suivantes: 
+
+#### Installer les dépendances Python
+Crée un environnement virtuel puis installe les librairies :
+```bash
+python -m venv venv
+source venv/bin/activate   # sous Linux/Mac
+venv\Scripts\activate      # sous Windows
+pip install -r requirements.txt
+```
+
+### 4. Lancer l’application
 ```bash
 python detect_mask.py
 ```

@@ -24,7 +24,7 @@
    - Export du modèle et des différents parametres utilisés durant le pretraintement et l'entrainement  entraîné pour une réutilisation future  
 
 ### Étapes principales du projet
-1. ####Importation des données**
+#### 1.Importation des données**
    Chargement des données réseau nécessaires à l’analyse.
 
 2. **Feature engineering**:
@@ -51,6 +51,7 @@
 
 ## Test du modèle sauvegardé
 <p>Dans le notebook "Test-anomaly-detection-model", on retrouve la prédiction de quelques activités du réseau avec leurs  transformations en  utilisant  les différents paramètres.</p> 
+
 
 
 

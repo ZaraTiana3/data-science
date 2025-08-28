@@ -13,7 +13,7 @@ Il combine **LangChain**, **Streamlit** et des outils **MCP** afin de :
 ## 🛠️ Technologies utilisées
 - **LangChain** pour la création de l'agent IA  
 - **Streamlit** pour l' interface utilisateur  
-- **MCP (Model Context Protocol)** , les outils personnalisés pour la mémoire et les calculs  
+- **MCP (Model Context Protocol)** pour les outils mcp et la création de serveur mcp personnalisé 
 - **Docker** :
   - `ankane/pgvector` pour le  stockage vectoriel pour la mémorisation  
   - `postgresmcp` pour la gestion automatisée de la base de données  
@@ -46,6 +46,7 @@ pip install -r requirements.txt
 
 ### 4. Lancer l’application
 ```bash
+python project_tools.py     #pour lancer le serveur mcp
 streamlit run app.py
 ```
 

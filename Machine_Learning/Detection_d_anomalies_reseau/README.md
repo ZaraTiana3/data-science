@@ -24,15 +24,18 @@ Le notebook "Implementation_de_modele_de_detection_d'anomalies_reseau.ipynb" con
    - données de test
    - données d’anomalies
 
-4. **Entraînement du modèle**: Utilisation d’un autoencodeur deep learning pour apprendre la représentation des données normales.
+4. **Entraînement du modèle**:
+   - D'abord la division des données en données d’entraînement, données de test et données d’anomalies
+   - Puis tilisation d’un autoencodeur deep learning pour apprendre la représentation des données normales.
 
-5. **Évaluation du modèle**: Le modèle est évalué successivement sur les données d’entraînement, les données de test, les données d’anomalies
+6. **Évaluation du modèle**: Le modèle est évalué successivement sur les données d’entraînement, les données de test, les données d’anomalies
    
-6. **Sauvegarde du modèle**: Export du modèle entraîné ainsi que des paramètres de prétraitement et d’entraînement pour une réutilisation future stockés dans le dossier "Modele_et_differents_parametres.
+7. **Sauvegarde du modèle**: Export du modèle entraîné ainsi que des paramètres de prétraitement et d’entraînement pour une réutilisation future stockés dans le dossier "Modele_et_differents_parametres.
 
 
 ## Test du modèle sauvegardé
 <p>Dans le notebook "Test-anomaly-detection-model.ipynb", on retrouve la prédiction de quelques activités du réseau avec leurs  transformations en  utilisant  les différents paramètres.</p> 
+
 
 
 

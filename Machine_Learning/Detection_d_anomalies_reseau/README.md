@@ -28,7 +28,8 @@ Les données d’anomalies ne sont pas utilisées pendant l’entraînement, afi
 
 
 ## Test du modèle sauvegardé
-<p>Dans le notebook "Test-anomaly-detection-model", on retrouve la prédiction de quelques activités du réseau avec leurs  transformations en  utilisant  les différents paramètres.</p> 
+<p>Dans le notebook "Test-anomaly-detection-model.ipynb", on retrouve la prédiction de quelques activités du réseau avec leurs  transformations en  utilisant  les différents paramètres.</p> 
+
 
 
 

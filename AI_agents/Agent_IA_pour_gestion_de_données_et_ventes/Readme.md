@@ -25,9 +25,10 @@ Il combine **LangChain**, **Streamlit** et des outils **MCP** afin de :
 ## 🚀 Installation et exécution
 
 ### 1. Cloner le projet
+```bash
 git clone https://github.com/toncompte/nom_du_repo.git
 cd nom_du_repo'
-
+```
 ### 2.Lancer les services Docker
 Démarre la base de données Postgres avec extension pgvector et postgresmcp :
 docker compose up -d

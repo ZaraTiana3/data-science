@@ -42,7 +42,7 @@ venv\Scripts\activate      # sous Windows
 pip install -r requirements.txt
 ```
 
-### 4. Lancer l’application
+#### Lancer l’application
 ```bash
 python detect_mask.py
 ```

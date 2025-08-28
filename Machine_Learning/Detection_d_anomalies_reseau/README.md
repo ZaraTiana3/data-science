@@ -19,22 +19,18 @@ Le notebook "Implementation_de_modele_de_detection_d'anomalies_reseau.ipynb" con
    - Les colonnes numériques (ex. : quantités d’octets entrants) sont utilisées telles quelles.
    - Les colonnes de type object sont encodées avec du target encoding, qui convertit chaque valeur catégorique en une valeur numérique correspondant à la probabilité que cette valeur soit associée à une anomalie.
    
-3. **Séparation des données** qui correspond à la division des données en : 
-   - données d’entraînement
-   - données de test
-   - données d’anomalies
-
-4. **Entraînement du modèle**:
+3. **Entraînement du modèle**:
    - D'abord la division des données en données d’entraînement, données de test et données d’anomalies
-   - Puis tilisation d’un autoencodeur deep learning pour apprendre la représentation des données normales.
+   - Puis utilisation d’un autoencodeur deep learning pour apprendre la représentation des données normales.
 
-6. **Évaluation du modèle**: Le modèle est évalué successivement sur les données d’entraînement, les données de test, les données d’anomalies
+4. **Évaluation du modèle**: Le modèle est évalué successivement sur les données d’entraînement, les données de test, les données d’anomalies
    
-7. **Sauvegarde du modèle**: Export du modèle entraîné ainsi que des paramètres de prétraitement et d’entraînement pour une réutilisation future stockés dans le dossier "Modele_et_differents_parametres.
+5. **Sauvegarde du modèle**: Export du modèle entraîné ainsi que des paramètres de prétraitement et d’entraînement pour une réutilisation future stockés dans le dossier "Modele_et_differents_parametres.
 
 
 ## Test du modèle sauvegardé
 <p>Dans le notebook "Test-anomaly-detection-model.ipynb", on retrouve la prédiction de quelques activités du réseau avec leurs  transformations en  utilisant  les différents paramètres.</p> 
+
 
 
 

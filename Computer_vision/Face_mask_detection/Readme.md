@@ -1,5 +1,5 @@
 
-## 😷 Détection du port de masque facial avec VGG16 et MTCNN
+## 😷 Détection du port de masque facial
 
 ## Description 
 Ce projet met en place un modèle de **vision par ordinateur** pour détecter si une personne porte un masque facial ou non.  
